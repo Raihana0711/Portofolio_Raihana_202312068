@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+<body style="background-color: #f0fff5; font-family: Arial, sans-serif; margin: 20px;">
+</body>
+</html>
+
+  <!-- Gambar Logo Kampus -->
+  <img src="stitek.png" alt="Logo Kampus" width="100" style="display: block; margin-bottom: 20px;">
+
+  <h1 style="color: #2c3e50;">Formulir Pendaftaran Mahasiswa Baru</h1>
+
+  <form action="/submit" method="post" style="background-color: #ffffff; padding: 20px; border-radius: 10px; max-width: 500px;">
+    
+    <!-- Data Pribadi -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend>Data Pribadi</legend>
+
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="nama@email.com" required><br><br>
+
+      <p>Jenis Kelamin:</p>
+      <input type="radio" id="pria" name="gender" value="Pria" required>
+      <label for="pria">Pria</label>
+      <input type="radio" id="wanita" name="gender" value="Wanita">
+      <label for="wanita">Wanita</label><br><br>
+    </fieldset>
+
+    <!-- Hobi -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend>Hobi</legend>
+      <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+      <label for="membaca">Membaca</label><br>
+
+      <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+      <label for="olahraga">Olahraga</label><br>
+
+      <input type="checkbox" id="musik" name="hobi" value="Musik">
+      <label for="musik">Musik</label><br><br>
+    </fieldset>
+
+    <!-- Jurusan -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend>Jurusan</legend>
+      <label for="jurusan">Pilih Jurusan:</label><br>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">-- Pilih jurusan --</option>
+        <option value="TI">Teknik Informatika</option>
+        <option value=Bisnis Digital">Bisnis Digital</option>
+        <option value="TE">Teknik Elektro</option>
+        <option value="SI">Sistem Informasi Elektro</option>
+      </select><br><br>
+    </fieldset>
+
+    <!-- Alamat -->
+    <fieldset style="margin-bottom: 15px;">
+      <legend>Alamat Lengkap (Opsional)</legend>
+      <textarea id="alamat" name="alamat" rows="4" cols="40" placeholder="Tuliskan alamat lengkap..."></textarea><br><br>
+    </fieldset>
+
+    <!-- Tombol Submit -->
+    <input type="submit" value="Kirim Formulir" style="padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px;">
+  </form>
+
+  <!-- Link ke halaman informasi kampus -->
+  <p style="margin-top: 20px;">
+    Untuk informasi lebih lanjut, kunjungi halaman <a href="https://pmb.stitek.ac.id/" target="_blank">Informasi Kampus</a>.
+  </p>
+
+  <!-- Komentar HTML -->
+  <!-- Formulir ini digunakan untuk pendaftaran mahasiswa baru. Pastikan data diisi dengan lengkap dan benar. -->
+
+</html>
