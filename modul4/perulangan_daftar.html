@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Perulangan Daftar</title></head>
+<body>
+  <h2>Daftar Teman Kelas</h2>
+  <ul id="daftar-matkul"></ul>
+  <script>
+    var matkul = ["Raihana", "alma", "dina", "sardila", "pita"];
+    var daftarElement = document.getElementById("daftar-matkul");
+    for (let i = 0; i < matkul.length; i++) {
+      daftarElement.innerHTML += "<li>" + matkul[i] + "</li>";
+    }
+  </script>
+</body>
+</html>
