@@ -218,7 +218,7 @@ Jika ada pertanyaan atau saran mengenai proyek ini, jangan ragu untuk menghubung
 
 *NIM: 202312068*
 
-**Universitas [Nama Universitas]**
+*Sekolah Tinggi Teknologi Bontang**
 
 *Mata Kuliah: Pemrograman Web*
 
