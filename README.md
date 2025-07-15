@@ -200,7 +200,7 @@ Portofolio_Raihana_202312068/
 
 **Nama**: Raihana
 **NIM**: 202312068
-**Email**: raihana.202312068@student.univ.ac.id
+**Email**: raihanahana5490@gmail.com
 **GitHub**: [@Raihana0711](https://github.com/Raihana0711)
 **LinkedIn**: [Raihana Profile](https://linkedin.com/in/raihana)
 
@@ -214,11 +214,11 @@ Jika ada pertanyaan atau saran mengenai proyek ini, jangan ragu untuk menghubung
 
 **🌟 Portofolio Pemrograman Web 🌟**
 
-*Dikembangkan dengan ❤️ oleh Raihana*
+*Dikembangkan oleh Raihana
 
 *NIM: 202312068*
 
-*Sekolah Tinggi Teknologi Bontang**
+*Sekolah Tinggi Teknologi Bontang*
 
 *Mata Kuliah: Pemrograman Web*
 
